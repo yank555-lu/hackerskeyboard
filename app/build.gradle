@@ -7,7 +7,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 26
         versionCode 1040005
-        versionName "v1.40.5"
+        versionName "v1.40.5 (Yank555.lu)"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
