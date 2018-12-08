@@ -574,7 +574,7 @@ public class LatinKeyboardBaseView extends View implements PointerTracker.UIProx
         mPadding = new Rect(0, 0, 0, 0);
         mKeyBackground.getPadding(mPadding);
 
-        mSwipeThreshold = (int) (300 * res.getDisplayMetrics().density);
+        mSwipeThreshold = (int) (10 * res.getDisplayMetrics().density);
         // TODO: Refer frameworks/base/core/res/res/values/config.xml
         // TODO(klausw): turn off mDisambiguateSwipe if no swipe actions are set?
         mDisambiguateSwipe = res.getBoolean(R.bool.config_swipeDisambiguation);
