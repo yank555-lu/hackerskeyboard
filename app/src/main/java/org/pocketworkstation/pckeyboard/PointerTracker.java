@@ -228,11 +228,7 @@ public class PointerTracker {
                 || primaryCode == LatinKeyboardView.KEYCODE_CTRL_LEFT
                 || primaryCode == LatinKeyboardView.KEYCODE_ALT_LEFT
                 || primaryCode == LatinKeyboardView.KEYCODE_META_LEFT
-                || primaryCode == LatinKeyboardView.KEYCODE_FN
-                || primaryCode == LatinKeyboardView.KEYCODE_DPAD_DOWN
-                || primaryCode == LatinKeyboardView.KEYCODE_DPAD_LEFT
-                || primaryCode == LatinKeyboardView.KEYCODE_DPAD_RIGHT
-                || primaryCode == LatinKeyboardView.KEYCODE_DPAD_UP;
+                || primaryCode == LatinKeyboardView.KEYCODE_FN;
     }
 
     public boolean isModifier() {
