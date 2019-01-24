@@ -52,11 +52,11 @@
     
     <string name="key_ae08_main">8</string>
     <string name="key_ae08_shift">(</string>
-    <string name="key_ae08_alt">8(∞</string>
+    <string name="key_ae08_alt">8([{∞</string>
     
     <string name="key_ae09_main">9</string>
     <string name="key_ae09_shift">)</string>
-    <string name="key_ae09_alt">9)</string>
+    <string name="key_ae09_alt">9)]}</string>
     
     <string name="key_ae10_main">0</string>
     <string name="key_ae10_shift">=</string>
@@ -110,20 +110,12 @@
     <string name="key_ad10_main">p</string>
     <string name="key_ad10_shift">P</string>
     <string name="key_ad10_alt">@string/alternates_for_p</string>
-    
-    <string name="key_ad11_main">è</string>
-    <string name="key_ad11_shift">ü</string>
-    <string name="key_ad11_alt">èü[</string>
-    
+
     <string name="key_ad12_main">¨</string>
     <string name="key_ad12_shift">!</string>
-    <string name="key_ad12_alt">¨!]¡</string>
+    <string name="key_ad12_alt">¨!¡</string>
 
-    <string name="key_bksl_main">$</string>
-    <string name="key_bksl_shift">£</string>
-    <string name="key_bksl_alt">$£}₤λ¢€¥</string>
-    
-    
+
     <string name="key_ac01_main">a</string>
     <string name="key_ac01_shift">A</string>
     <string name="key_ac01_alt">@string/alternates_for_a</string>
@@ -159,14 +151,6 @@
     <string name="key_ac09_main">l</string>
     <string name="key_ac09_shift">L</string>
     <string name="key_ac09_alt">@string/alternates_for_l</string>
-
-    <string name="key_ac10_main">é</string>
-    <string name="key_ac10_shift">ö</string>
-    <string name="key_ac10_alt">éö</string>
-
-    <string name="key_ac11_main">à</string>
-    <string name="key_ac11_shift">ä</string>
-    <string name="key_ac11_alt">àä{</string>
 
 
     <string name="key_lsgt_main">&lt;</string>
