@@ -1290,8 +1290,8 @@ public class LatinIME extends InputMethodService implements
     }
 
     private void postUpdateShiftKeyState() {
-        // TODO(klausw): disabling, I have no idea what this is supposed to accomplish.
-//        //updateShiftKeyState(getCurrentInputEditorInfo());
+        // This is needed to have AutoCaps work properly for cursor, home, end ... keys
+        updateShiftKeyState(getCurrentInputEditorInfo());
 //
 //        // FIXME: why the delay?
 //        mHandler.removeMessages(MSG_UPDATE_SHIFT_STATE);
