@@ -1,0 +1,53 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/yank555-lu/Android/Projects/hackerskeyboard/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/home/yank555-lu/Android/Tools/Sdk/cmake/3.6.4111459/bin/cmake --build /home/yank555-lu/Android/Projects/hackerskeyboard/app/.cxx/cmake/debug/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"jni_pckeyboard-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "jni_pckeyboard",
+			"buildCommand" : "/home/yank555-lu/Android/Tools/Sdk/cmake/3.6.4111459/bin/cmake --build /home/yank555-lu/Android/Projects/hackerskeyboard/app/.cxx/cmake/debug/x86 --target jni_pckeyboard",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/home/yank555-lu/Android/Tools/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/yank555-lu/Android/Tools/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Djni_pckeyboard_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/yank555-lu/Android/Projects/hackerskeyboard/app/src/main/cpp/org_pocketworkstation_pckeyboard_BinaryDictionary.cpp",
+					"workingDirectory" : "/home/yank555-lu/Android/Projects/hackerskeyboard/app/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/home/yank555-lu/Android/Tools/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/yank555-lu/Android/Tools/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Djni_pckeyboard_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/yank555-lu/Android/Projects/hackerskeyboard/app/src/main/cpp/dictionary.cpp",
+					"workingDirectory" : "/home/yank555-lu/Android/Projects/hackerskeyboard/app/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/home/yank555-lu/Android/Tools/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/yank555-lu/Android/Tools/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Djni_pckeyboard_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/yank555-lu/Android/Projects/hackerskeyboard/app/src/main/cpp/char_utils.cpp",
+					"workingDirectory" : "/home/yank555-lu/Android/Projects/hackerskeyboard/app/.cxx/cmake/debug/x86"
+				}
+			],
+			"output" : "/home/yank555-lu/Android/Projects/hackerskeyboard/app/build/intermediates/cmake/debug/obj/x86/libjni_pckeyboard.so",
+			"toolchain" : "7591733615897014899"
+		}
+	},
+	"toolchains" : 
+	{
+		"7591733615897014899" : 
+		{
+			"cCompilerExecutable" : "/home/yank555-lu/Android/Tools/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/yank555-lu/Android/Tools/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

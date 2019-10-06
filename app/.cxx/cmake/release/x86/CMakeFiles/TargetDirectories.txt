@@ -1,0 +1,3 @@
+/home/yank555-lu/Android/Projects/hackerskeyboard/app/.cxx/cmake/release/x86/CMakeFiles/edit_cache.dir
+/home/yank555-lu/Android/Projects/hackerskeyboard/app/.cxx/cmake/release/x86/CMakeFiles/rebuild_cache.dir
+/home/yank555-lu/Android/Projects/hackerskeyboard/app/.cxx/cmake/release/x86/CMakeFiles/jni_pckeyboard.dir

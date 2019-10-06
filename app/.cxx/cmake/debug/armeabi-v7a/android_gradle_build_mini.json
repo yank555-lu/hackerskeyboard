@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/home/yank555-lu/Android/Projects/hackerskeyboard/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/yank555-lu/Android/Tools/Sdk/cmake/3.6.4111459/bin/cmake --build /home/yank555-lu/Android/Projects/hackerskeyboard/app/.cxx/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "jni_pckeyboard-Debug-armeabi-v7a": {
+      "artifactName": "jni_pckeyboard",
+      "buildCommand": "/home/yank555-lu/Android/Tools/Sdk/cmake/3.6.4111459/bin/cmake --build /home/yank555-lu/Android/Projects/hackerskeyboard/app/.cxx/cmake/debug/armeabi-v7a --target jni_pckeyboard",
+      "abi": "armeabi-v7a",
+      "output": "/home/yank555-lu/Android/Projects/hackerskeyboard/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libjni_pckeyboard.so"
+    }
+  }
+}

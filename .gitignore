@@ -11,3 +11,9 @@
 /captures
 gradle
 .externalNativeBuild
+CMakeTmp
+.ninja_log
+.ninja_deps
+*.stdout.txt
+*.stderr.txt
+*.cpp.o
