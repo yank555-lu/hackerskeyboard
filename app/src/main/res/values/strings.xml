@@ -361,9 +361,9 @@
     <string-array name="keyboard_layout_modes" translatable="false">
         <item>@string/layout_ics</item>
         <item>@string/layout_ics_darker</item>
-		<item>@string/layout_material_black</item>
-        <item>@string/layout_material_dark</item>
         <item>@string/layout_material_light</item>
+        <item>@string/layout_material_dark</item>
+		<item>@string/layout_material_black</item>
         <item>@string/layout_gingerbread</item>
         <item>@string/layout_stone_bold</item>
         <item>@string/layout_trans_neon</item>
