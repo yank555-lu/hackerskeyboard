@@ -17,9 +17,9 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Functional keys. -->
     <item android:state_single="true" android:state_pressed="true"
-        android:drawable="@drawable/btn_keyboard_key_pressed_material_dark" />
+        android:drawable="@drawable/btn_keyboard_key_pressed_material_black" />
     <item android:state_single="true"
-        android:drawable="@drawable/btn_keyboard_key_function_material_dark" />
+        android:drawable="@drawable/btn_keyboard_key_function_material_black" />
 
     <!-- Action keys. -->
     <item android:state_active="true" android:state_pressed="true"
