@@ -20,9 +20,9 @@
 
 <Keyboard
     xmlns:android="http://schemas.android.com/apk/res-auto"
-    android:keyWidth="7.1428571485%p"
-    android:horizontalGap="0px"
-    android:verticalGap="@dimen/key_bottom_gap"
+    android:keyWidth="6.38095237825%p"
+    android:horizontalGap="0.66666666666%p"
+    android:verticalGap="0.33333333333%p"
     android:layoutRows="5"
     android:layoutColumns="14"
 >
@@ -124,7 +124,7 @@
             android:codes="@integer/key_delete"
             android:keyIcon="@drawable/sym_keyboard_delete"
             android:iconPreview="@drawable/sym_keyboard_feedback_delete"
-            android:keyWidth="9.7142855%p"
+            android:keyWidth="8.28571435714%p"
             android:isModifier="true"
             android:isRepeatable="true"
             android:keyEdgeFlags="right" />
@@ -208,7 +208,7 @@
     <Row>
         <Key
             android:keyLabel="Ctrl"
-            android:keyWidth="10.7142855%p"
+            android:keyWidth="9.851190476%p"
             android:codes="@integer/key_ctrl_left"
             android:isSticky="true"
             android:keyEdgeFlags="left"
@@ -272,7 +272,7 @@
             android:codes="@integer/key_return"
             android:keyIcon="@drawable/sym_keyboard_return"
             android:iconPreview="@drawable/sym_keyboard_feedback_return"
-            android:keyWidth="10.7142855%p"
+            android:keyWidth="9.851190476%p"
             android:isModifier="true"
             android:keyEdgeFlags="right" />
     </Row>
@@ -357,7 +357,7 @@
         <Key
             android:keyLabel="Esc"
             android:codes="@integer/key_escape"
-            android:keyWidth="10.7142855%p"
+            android:keyWidth="9.571428567%p"
             android:keyEdgeFlags="left"
             android:isModifier="true" />
         <Key
@@ -369,26 +369,16 @@
             android:isSticky="true"
             android:isModifier="true" />
         <Key
-            android:codes="@integer/key_meta_left"
-            android:keyLabel="&#x2756;"
-            android:isSticky="true"
-            android:isModifier="true" />
-        <Key
             android:codes="@integer/key_space"
             android:shiftLabel="@string/key_space_shift"
             android:keyIcon="@drawable/sym_keyboard_space"
             android:iconPreview="@drawable/sym_keyboard_feedback_space"
-            android:keyWidth="32.1428571372%p"
+            android:keyWidth="45.47619046%p"
             android:isModifier="true" />
         <Key
             android:codes="@integer/key_fn"
             android:keyLabel="Fn"
             android:isModifier="true" />
-        <Key
-            android:codes="@integer/key_dpad_center"
-            android:isModifier="true"
-            android:isCursor="true"
-            android:keyLabel="&#x25cb;" />
         <Key
             android:codes="@integer/key_dpad_left"
             android:isModifier="true"
@@ -406,7 +396,14 @@
             android:isModifier="true"
             android:keyLabel="&#x25b7;"
             android:isRepeatable="true"
+            android:isCursor="true" />
+        <Key
+            android:codes="@integer/key_dpad_right"
+            android:isModifier="true"
+            android:keyLabel=""
+            android:isRepeatable="true"
             android:isCursor="true"
+            android:keyWidth="0.66666666666%p"
             android:keyEdgeFlags="right" />
     </Row>
 </Keyboard>
