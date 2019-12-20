@@ -27,7 +27,7 @@
     },
     {
       "level": "INFO",
-      "message": "Found requested ndk.dir (/home/yank555-lu/Android/Tools/Sdk/ndk-bundle) which has version 20.0.5594570"
+      "message": "Found requested ndk.dir (/home/yank555-lu/Android/Tools/Sdk/ndk-bundle) which has version 20.1.5948944"
     }
   ]
 }
